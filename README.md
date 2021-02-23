@@ -10,6 +10,7 @@
 ## Installing
 * Fork and clone this repository
 * Run npm install in your terminal
+* Run npm install -g json-server
 * Run npm start
 * Run json-server --watch db.json --port 3004
 
