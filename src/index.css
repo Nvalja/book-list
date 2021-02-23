@@ -3,11 +3,47 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.mar5 {
+  margin: 5px;
+}
+
+.marT10 {
+  margin-top: 10px;
+}
+
+.pad30 {
+  padding: 30px 0;
+}
+
+.pad10 {
+  padding: 10px 0;
+}
+
+.input-field input[type].valid,
+.input-field input[type].valid:focus,
+.input-field textarea.valid,
+.input-field textarea.valid:focus {
+  border-bottom: 1px solid #ba68c8;
+  box-shadow: 0 1px 0 0 #ba68c8;
+}
+
+.input-field input[type].valid:focus+label,
+.input-field input[type].valid~.helper-text::after,
+.input-field input[type].valid:focus~.helper-text::after,
+.input-field textarea.valid:focus+label,
+.input-field textarea.valid~.helper-text::after,
+.input-field textarea.valid:focus~.helper-text::after {
+  color: #ba68c8;
 }
